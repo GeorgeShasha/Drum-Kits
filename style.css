@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
+  background: linear-gradient(45deg, lightblue, lightcoral);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+h1 {
+  color: aliceblue;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 50px;
+  letter-spacing: 4px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin-bottom: 30px;
+  white-space: nowrap;
+}
+
+.btn {
+  padding: 30px 50px;
+  background-color: white;
+  border: none;
+  outline: none;
+  margin: 10px;
+  font-size: 30px;
+  min-width: 200px;
+  min-height: 200px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  background-image: url(images/bass-drum-icon.png);
+  background-size: cover;
+  color: darkgray;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  text-transform: capitalize;
+}
+
+.btn:hover {
+  color: black;
+}
+
+.btn:active {
+  background-size: 105%;
+}
+
+.container {
+  text-align: center;
+}
